@@ -85,7 +85,7 @@ wss.on("connection", (socket) => {
 });
 
 const connection = new TikTokLiveConnection(TIKTOK_USERNAME, {
-  enableExtendedGiftInfo: true
+  enableExtendedGiftInfo: false
 });
 
 // -----------------------------
